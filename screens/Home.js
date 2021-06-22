@@ -84,6 +84,7 @@ const renderSearchBar = () => {
       />
       <TextInput
         style={{
+          flex: 1,
           marginLeft: SIZES.radius,
           ...FONTS.body3,
         }}

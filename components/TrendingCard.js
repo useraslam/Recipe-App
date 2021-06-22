@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  View,
-  Text,
-  Image,
-  TouchableOpacity,
-  Platform,
-  StyleSheet,
-} from "react-native";
+import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
 import { SIZES, COLORS, FONTS, icons } from "../constants";
 // import { BlurView } from "@react-native-community/blur";`
 
