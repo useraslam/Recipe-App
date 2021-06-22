@@ -7,6 +7,7 @@ import {
   SafeAreaView,
   FlatList,
   TextInput,
+  StatusBar,
 } from "react-native";
 import { COLORS, FONTS, SIZES, dummyData, icons, images } from "../constants";
 import { CategoryCard, TrendingCard } from "../components";
@@ -22,6 +23,7 @@ const renderHeader = () => {
         height: 80,
       }}
     >
+      <StatusBar translucent backgroundColor="transparent" />
       <View
         style={{
           flex: 1,
